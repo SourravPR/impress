@@ -11,7 +11,7 @@ import spacy
 
 def processinput(inputstring):
     print(inputstring)
-    post_message_url = 'https://api.telegram.org/bot1495665981:AAE1pKov14O-QBFCD1pOvJEv37eHdjjjBuE/sendMessage'    
+    post_message_url = 'https://api.telegram.org/bot{token}/sendMessage'    
 
     try:
         inputstring['message']
